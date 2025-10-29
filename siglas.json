@@ -1,0 +1,17 @@
+[
+    {
+        "sigla": "AOA",
+        "definicion": "Angle of Attack",
+        "unidad": "grados"
+    },
+    {
+        "sigla": "IAS",
+        "definicion": "Indicated Airspeed",
+        "unidad": "knots"
+    },
+    {
+        "sigla": "TAS",
+        "definicion": "True Airspeed",
+        "unidad": "knots"
+    }
+]
