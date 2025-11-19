@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siglas Aeronáuticas</title>
+    <title>Diccionario Aeroespacial</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Diccionario de Siglas Aeronáuticas</h1>
-    <input type="text" id="search" placeholder="Buscar sigla...">
-    <button onclick="searchSigla()">Buscar</button>
-    <div id="siglas-container"></div>
-    <h2>Añadir Nueva Sigla</h2>
-    <input type="text" id="new-sigla" placeholder="Sigla">
-    <input type="text" id="new-definicion" placeholder="Definición">
-    <input type="text" id="new-unidad" placeholder="Unidad">
-    <button onclick="addSigla()">Añadir</button>
+    <h1>Diccionario Aeroespacial</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Buscar sigla...">
+        <button id="searchButton">Buscar</button>
+    </div>
+    <div id="results"></div>
+    <div id="addForm" style="display: none;">
+        <h2>Añadir nueva sigla</h2>
+        <form id="newSiglaForm">
+            <label for="newSigla">Sigla:</label>
+            <input type="text" id="newSigla" required><br>
+            <label for="newDefinicion">Definición:</label>
+            <input type="text" id="newDefinicion" required><br>
+            <label for="newUnidad">Unidad (opcional):</label>
+            <input type="text" id="newUnidad"><br>
+            <label for="newEjemplo">Ejemplo (opcional):</label>
+            <input type="text" id="newEjemplo"><br>
+            <button type="submit">Añadir</button>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
