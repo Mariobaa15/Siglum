@@ -1,17 +1,124 @@
-[
+{
+  "siglas": [
     {
-        "sigla": "AOA",
-        "definicion": "Angle of Attack",
-        "unidad": "grados"
+      "sigla": "NASA",
+      "definicion": "National Aeronautics and Space Administration",
+      "unidad": "",
+      "ejemplo": "La NASA es la agencia espacial de EE.UU."
     },
     {
-        "sigla": "IAS",
-        "definicion": "Indicated Airspeed",
-        "unidad": "knots"
+      "sigla": "ESA",
+      "definicion": "European Space Agency",
+      "unidad": "",
+      "ejemplo": "La ESA es la agencia espacial europea."
     },
     {
-        "sigla": "TAS",
-        "definicion": "True Airspeed",
-        "unidad": "knots"
+      "sigla": "ROSCOSMOS",
+      "definicion": "Russian Federal Space Agency",
+      "unidad": "",
+      "ejemplo": "Roscosmos es la agencia espacial de Rusia."
+    },
+    {
+      "sigla": "CNSA",
+      "definicion": "China National Space Administration",
+      "unidad": "",
+      "ejemplo": "La CNSA es la agencia espacial de China."
+    },
+    {
+      "sigla": "ISRO",
+      "definicion": "Indian Space Research Organisation",
+      "unidad": "",
+      "ejemplo": "La ISRO es la agencia espacial de la India."
+    },
+    {
+      "sigla": "JAXA",
+      "definicion": "Japan Aerospace Exploration Agency",
+      "unidad": "",
+      "ejemplo": "La JAXA es la agencia espacial de Japón."
+    },
+    {
+      "sigla": "FAA",
+      "definicion": "Federal Aviation Administration",
+      "unidad": "",
+      "ejemplo": "La FAA regula la aviación civil en EE.UU."
+    },
+    {
+      "sigla": "ICAO",
+      "definicion": "International Civil Aviation Organization",
+      "unidad": "",
+      "ejemplo": "La ICAO establece estándares para la aviación internacional."
+    },
+    {
+      "sigla": "IATA",
+      "definicion": "International Air Transport Association",
+      "unidad": "",
+      "ejemplo": "La IATA representa a las aerolíneas internacionales."
+    },
+    {
+      "sigla": "A320",
+      "definicion": "Airbus A320, un modelo de avión comercial",
+      "unidad": "",
+      "ejemplo": "El Airbus A320 es un avión de pasajeros de corto y medio alcance."
+    },
+    {
+      "sigla": "B737",
+      "definicion": "Boeing 737, un modelo de avión comercial",
+      "unidad": "",
+      "ejemplo": "El Boeing 737 es un avión de pasajeros de corto y medio alcance."
+    },
+    {
+      "sigla": "LEM",
+      "definicion": "Lunar Excursion Module (Módulo de Alunizaje)",
+      "unidad": "",
+      "ejemplo": "El LEM fue usado en las misiones Apolo para alunizar."
+    },
+    {
+      "sigla": "CM",
+      "definicion": "Command Module (Módulo de Comando)",
+      "unidad": "",
+      "ejemplo": "El CM era la parte de la nave Apolo donde viajaban los astronautas."
+    },
+    {
+      "sigla": "SSTO",
+      "definicion": "Single Stage To Orbit (Un solo etapa a órbita)",
+      "unidad": "",
+      "ejemplo": "Un vehículo SSTO despegaría y llegaría a órbita sin etapas."
+    },
+    {
+      "sigla": "RCS",
+      "definicion": "Reaction Control System (Sistema de Control de Reacción)",
+      "unidad": "",
+      "ejemplo": "El RCS se usa para maniobrar en el espacio."
+    },
+    {
+      "sigla": "IMU",
+      "definicion": "Inertial Measurement Unit (Unidad de Medición Inercial)",
+      "unidad": "",
+      "ejemplo": "La IMU mide la orientación, velocidad angular y gravedad de un vehículo."
+    },
+    {
+      "sigla": "GPS",
+      "definicion": "Global Positioning System (Sistema de Posicionamiento Global)",
+      "unidad": "",
+      "ejemplo": "El GPS se usa para la navegación en aviación y otros transportes."
+    },
+    {
+      "sigla": "MACH",
+      "definicion": "Velocidad del sonido en el aire (aproximadamente 343 m/s a 15°C)",
+      "unidad": "unidad adimensional",
+      "ejemplo": "Un avión supersónico vuela a Mach 2, es decir, dos veces la velocidad del sonido."
+    },
+    {
+      "sigla": "KTS",
+      "definicion": "Nudos (velocidad en náutica)",
+      "unidad": "millas náuticas por hora",
+      "ejemplo": "Un avión comercial vuela a aproximadamente 500 KTS."
+    },
+    {
+      "sigla": "FT",
+      "definicion": "Pie (unidad de longitud)",
+      "unidad": "1 pie = 0.3048 metros",
+      "ejemplo": "La altitud de crucero de un avión se mide en pies."
     }
-]
+  ]
+}
